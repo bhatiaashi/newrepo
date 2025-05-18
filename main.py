@@ -6,6 +6,7 @@ from fastapi import Depends, FastAPI, status, HTTPException
 from sqlmodel import Session, SQLModel, select
 from starlette.responses import Response
 
+
 from database import my_engine
 from models import Blog
 
